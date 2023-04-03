@@ -1,9 +1,18 @@
 @media (min-width=992px){
     body{
-        width: 100%;
+        width: 80%;
         margin: auto;
         font-size: 75%;
 
+    }
+    .section_1{
+        width: 50%;
+    }
+    .section_2{
+        width: 50%;
+    }
+    .section_3{
+        width: 50%;
     }
 }
 @media (max-width=991px), (min-width=768px){
@@ -13,13 +22,31 @@
         font-size: 75%;
 
     }
+    .section_1{
+        width: 60%;
+    }
+    .section_2{
+        width: 60%;
+    }
+    .section_3{
+        width: 1000%;
+    }
 }
 @media (max-width=767px){
     body{
-        width: 80%;
+        width: 100%;
         margin: auto;
         font-size: 75%;
 
+    }
+    .section_1{
+        width: 100%;
+    }
+    .section_2{
+        width: 100%;
+    }
+    .section_3{
+        width: 1000%;
     }
 }
 
@@ -33,20 +60,20 @@ h1{
 }
 .section_1{
     background: green;
-    width: 40%;
+    
 
 }
 .section_2{
     background: yellow;
-    width: 40%;
+    
 
 }
 .section_3{
     background: red;
-    width: 40%;
+    
 }
 h2{
-    margin-left: 270px;
+  
     border: 3px solid black;
     border-top: none;
     margin-top: 0;
